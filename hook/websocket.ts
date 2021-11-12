@@ -1,4 +1,5 @@
-import {VITE_WEBSOCKET_IP } from "@/utils/config"
+const VITE_WEBSOCKET_IP = ''
+
 function useWebSocket(
   handleMessage: (this: WebSocket, ev: MessageEvent<any>) => any,
   closeFn:(e:any)=>any,
